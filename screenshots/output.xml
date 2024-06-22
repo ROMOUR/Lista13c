@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-06-21T23:03:10.411241" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Flight Purchase" source="c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot">
+<test id="s1-t1" name="Flight Purchase Test" line="11">
+<kw name="Flight Purchase Template">
+<msg time="2024-06-21T23:03:10.789216" level="FAIL">Variable '@{CUSTOMERS}' not found.</msg>
+<arg>@{CUSTOMERS}</arg>
+<status status="FAIL" start="2024-06-21T23:03:10.788673" elapsed="0.002557">Variable '@{CUSTOMERS}' not found.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-06-21T23:03:10.792226" elapsed="0.000000"/>
+</kw>
+<doc>Test the flight purchase flow with different customer data</doc>
+<status status="FAIL" start="2024-06-21T23:03:10.786994" elapsed="0.006229">Variable '@{CUSTOMERS}' not found.</status>
+</test>
+<status status="FAIL" start="2024-06-21T23:03:10.418463" elapsed="0.376756"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Flight Purchase">Test Flight Purchase</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-21T23:03:10.770290" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot' on line 3: Resource file '..\pages\home_page.robot' does not exist.</msg>
+<msg time="2024-06-21T23:03:10.770290" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot' on line 4: Resource file '..\pages\reserve_page.robot' does not exist.</msg>
+<msg time="2024-06-21T23:03:10.770290" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot' on line 5: Resource file '..\pages\purchase_page.robot' does not exist.</msg>
+<msg time="2024-06-21T23:03:10.770290" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot' on line 6: Resource file '..\pages\confirmation_page.robot' does not exist.</msg>
+<msg time="2024-06-21T23:03:10.784545" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\Lista13c\__testes__\tests\test_flight_purchase.robot' on line 7: Invalid resource file extension '.py'. Supported extensions are '.json', '.resource', '.rest', '.robot', '.rsrc', '.rst', '.tsv' and '.txt'.</msg>
+</errors>
+</robot>
